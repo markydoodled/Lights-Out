@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57E01392BC579D30061DFC7 /* Lights_OutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E01382BC579D30061DFC7 /* Lights_OutApp.swift */; };
+		D57E013B2BC579D30061DFC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E013A2BC579D30061DFC7 /* ContentView.swift */; };
+		D57E013D2BC579D50061DFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57E013C2BC579D50061DFC7 /* Assets.xcassets */; };
+		D57E01412BC579D50061DFC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57E01402BC579D50061DFC7 /* Preview Assets.xcassets */; };
+		D57E014E2BC57AA00061DFC7 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E014D2BC57AA00061DFC7 /* SafariWebExtensionHandler.swift */; };
+		D57E01512BC57AA00061DFC7 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = D57E01502BC57AA00061DFC7 /* _locales */; };
+		D57E01532BC57AA00061DFC7 /* images in Resources */ = {isa = PBXBuildFile; fileRef = D57E01522BC57AA00061DFC7 /* images */; };
+		D57E01552BC57AA00061DFC7 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D57E01542BC57AA00061DFC7 /* manifest.json */; };
+		D57E01572BC57AA00061DFC7 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D57E01562BC57AA00061DFC7 /* background.js */; };
+		D57E01592BC57AA00061DFC7 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D57E01582BC57AA00061DFC7 /* content.js */; };
+		D57E015B2BC57AA00061DFC7 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = D57E015A2BC57AA00061DFC7 /* popup.html */; };
+		D57E015D2BC57AA00061DFC7 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = D57E015C2BC57AA00061DFC7 /* popup.css */; };
+		D57E015F2BC57AA00061DFC7 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = D57E015E2BC57AA00061DFC7 /* popup.js */; };
+		D57E01632BC57AA00061DFC7 /* Lights Out Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D57E014B2BC57AA00061DFC7 /* Lights Out Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57E01612BC57AA00061DFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57E012D2BC579D30061DFC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57E014A2BC57AA00061DFC7;
+			remoteInfo = "Lights Out Safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D57E01672BC57AA00061DFC7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D57E01632BC57AA00061DFC7 /* Lights Out Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D57E01352BC579D30061DFC7 /* Lights Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lights Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57E01382BC579D30061DFC7 /* Lights_OutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lights_OutApp.swift; sourceTree = "<group>"; };
+		D57E013A2BC579D30061DFC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D57E013C2BC579D50061DFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57E013E2BC579D50061DFC7 /* Lights_Out.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lights_Out.entitlements; sourceTree = "<group>"; };
+		D57E01402BC579D50061DFC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D57E014B2BC57AA00061DFC7 /* Lights Out Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lights Out Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57E014D2BC57AA00061DFC7 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D57E01502BC57AA00061DFC7 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		D57E01522BC57AA00061DFC7 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		D57E01542BC57AA00061DFC7 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		D57E01562BC57AA00061DFC7 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		D57E01582BC57AA00061DFC7 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		D57E015A2BC57AA00061DFC7 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		D57E015C2BC57AA00061DFC7 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		D57E015E2BC57AA00061DFC7 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		D57E01602BC57AA00061DFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57E01322BC579D30061DFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57E01482BC57AA00061DFC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57E012C2BC579D30061DFC7 = {
+			isa = PBXGroup;
+			children = (
+				D57E01372BC579D30061DFC7 /* Lights Out */,
+				D57E014C2BC57AA00061DFC7 /* Lights Out Safari Extension */,
+				D57E01362BC579D30061DFC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57E01362BC579D30061DFC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57E01352BC579D30061DFC7 /* Lights Out.app */,
+				D57E014B2BC57AA00061DFC7 /* Lights Out Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57E01372BC579D30061DFC7 /* Lights Out */ = {
+			isa = PBXGroup;
+			children = (
+				D57E01382BC579D30061DFC7 /* Lights_OutApp.swift */,
+				D57E013A2BC579D30061DFC7 /* ContentView.swift */,
+				D57E013C2BC579D50061DFC7 /* Assets.xcassets */,
+				D57E013E2BC579D50061DFC7 /* Lights_Out.entitlements */,
+				D57E013F2BC579D50061DFC7 /* Preview Content */,
+			);
+			path = "Lights Out";
+			sourceTree = "<group>";
+		};
+		D57E013F2BC579D50061DFC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D57E01402BC579D50061DFC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D57E014C2BC57AA00061DFC7 /* Lights Out Safari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D57E014D2BC57AA00061DFC7 /* SafariWebExtensionHandler.swift */,
+				D57E01602BC57AA00061DFC7 /* Info.plist */,
+				D57E014F2BC57AA00061DFC7 /* Resources */,
+			);
+			path = "Lights Out Safari Extension";
+			sourceTree = "<group>";
+		};
+		D57E014F2BC57AA00061DFC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D57E01502BC57AA00061DFC7 /* _locales */,
+				D57E01522BC57AA00061DFC7 /* images */,
+				D57E01542BC57AA00061DFC7 /* manifest.json */,
+				D57E01562BC57AA00061DFC7 /* background.js */,
+				D57E01582BC57AA00061DFC7 /* content.js */,
+				D57E015A2BC57AA00061DFC7 /* popup.html */,
+				D57E015C2BC57AA00061DFC7 /* popup.css */,
+				D57E015E2BC57AA00061DFC7 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57E01342BC579D30061DFC7 /* Lights Out */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57E01442BC579D50061DFC7 /* Build configuration list for PBXNativeTarget "Lights Out" */;
+			buildPhases = (
+				D57E01312BC579D30061DFC7 /* Sources */,
+				D57E01322BC579D30061DFC7 /* Frameworks */,
+				D57E01332BC579D30061DFC7 /* Resources */,
+				D57E01672BC57AA00061DFC7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57E01622BC57AA00061DFC7 /* PBXTargetDependency */,
+			);
+			name = "Lights Out";
+			productName = "Lights Out";
+			productReference = D57E01352BC579D30061DFC7 /* Lights Out.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57E014A2BC57AA00061DFC7 /* Lights Out Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57E01642BC57AA00061DFC7 /* Build configuration list for PBXNativeTarget "Lights Out Safari Extension" */;
+			buildPhases = (
+				D57E01472BC57AA00061DFC7 /* Sources */,
+				D57E01482BC57AA00061DFC7 /* Frameworks */,
+				D57E01492BC57AA00061DFC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lights Out Safari Extension";
+			productName = "Lights Out Safari Extension";
+			productReference = D57E014B2BC57AA00061DFC7 /* Lights Out Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57E012D2BC579D30061DFC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D57E01342BC579D30061DFC7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D57E014A2BC57AA00061DFC7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = D57E01302BC579D30061DFC7 /* Build configuration list for PBXProject "Lights Out" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57E012C2BC579D30061DFC7;
+			productRefGroup = D57E01362BC579D30061DFC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57E01342BC579D30061DFC7 /* Lights Out */,
+				D57E014A2BC57AA00061DFC7 /* Lights Out Safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57E01332BC579D30061DFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57E01412BC579D50061DFC7 /* Preview Assets.xcassets in Resources */,
+				D57E013D2BC579D50061DFC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57E01492BC57AA00061DFC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57E01572BC57AA00061DFC7 /* background.js in Resources */,
+				D57E015D2BC57AA00061DFC7 /* popup.css in Resources */,
+				D57E015B2BC57AA00061DFC7 /* popup.html in Resources */,
+				D57E01532BC57AA00061DFC7 /* images in Resources */,
+				D57E01552BC57AA00061DFC7 /* manifest.json in Resources */,
+				D57E01512BC57AA00061DFC7 /* _locales in Resources */,
+				D57E01592BC57AA00061DFC7 /* content.js in Resources */,
+				D57E015F2BC57AA00061DFC7 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57E01312BC579D30061DFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57E013B2BC579D30061DFC7 /* ContentView.swift in Sources */,
+				D57E01392BC579D30061DFC7 /* Lights_OutApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57E01472BC57AA00061DFC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57E014E2BC57AA00061DFC7 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57E01622BC57AA00061DFC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57E014A2BC57AA00061DFC7 /* Lights Out Safari Extension */;
+			targetProxy = D57E01612BC57AA00061DFC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D57E01422BC579D50061DFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		D57E01432BC579D50061DFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		D57E01452BC579D50061DFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lights Out/Lights_Out.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lights Out/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Lights-Out";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D57E01462BC579D50061DFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Lights Out/Lights_Out.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lights Out/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Lights-Out";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		D57E01652BC57AA00061DFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lights Out Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lights Out Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Lights-Out.Lights-Out-Safari-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		D57E01662BC57AA00061DFC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lights Out Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lights Out Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.Lights-Out.Lights-Out-Safari-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57E01302BC579D30061DFC7 /* Build configuration list for PBXProject "Lights Out" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57E01422BC579D50061DFC7 /* Debug */,
+				D57E01432BC579D50061DFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57E01442BC579D50061DFC7 /* Build configuration list for PBXNativeTarget "Lights Out" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57E01452BC579D50061DFC7 /* Debug */,
+				D57E01462BC579D50061DFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57E01642BC57AA00061DFC7 /* Build configuration list for PBXNativeTarget "Lights Out Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57E01652BC57AA00061DFC7 /* Debug */,
+				D57E01662BC57AA00061DFC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57E012D2BC579D30061DFC7 /* Project object */;
+}
